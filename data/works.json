@@ -15,7 +15,7 @@
                 "google web designer": "0"
             },
             "site": "//youngsfolio.com/",
-            "code": null
+            "code": "//github.com/jiyouuuuung/youngsfolio-v2"
         },
         {
             "number": "012",
@@ -208,7 +208,7 @@
             "number": "001",
             "title": "SELF PORTFOLIO(v1)",
             "date": "Feb 2018",
-            "desc": "self designed & built portfolio website",
+            "desc": "the first built website. self designed portfolio website",
             "skills":
             {
                 "html": "100",

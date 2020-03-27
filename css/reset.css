@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+* {margin: 0; padding: 0; box-sizing: border-box;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  cursor: none;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+html, body {overflow-x: hidden; width: 100%; height: auto; min-height: 100%; background: #141516; font-size: 1em; font-family: 'Inconsolata', ariel, sans-serif; font-weight: normal; color: #ebecee;}
+
+@media screen and (max-width: 768px){
+  html, body {background: none;}
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, main, section, caption {display: block;}
+ul, ol {list-style-type: none;}
+blockquote, q {quotes: none;}
+a {text-decoration: none; color: inherit;}
+table {border-collapse: collapse; border-spacing: 0;}
+colgroup {display: table-column-group;}
+col {display: table-column;}
+em {font-style: italic;}
+
+button {
+  cursor: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+
+  background: transparent;
+
+  color: inherit;
+  font: inherit;
+
+  line-height: normal;
+
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner {
+    border: none;
+    padding: 0;
+}
+button {display: block; border: none; box-shadow: none;}
+button:focus, button:active {border: none;}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-weight: normal;
+  src: url('./../fonts/Inconsolata/Inconsolata-Regular.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+       url('./../fonts/Inconsolata/Inconsolata-Regular.woff') format('woff'), /* Modern Browsers */
+       url('./../fonts/Inconsolata/Inconsolata-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-weight: bold;
+  src: url('./../fonts/Inconsolata/Inconsolata-Bold.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+       url('./../fonts/Inconsolata/Inconsolata-Bold.woff') format('woff'), /* Modern Browsers */
+       url('./../fonts/Inconsolata/Inconsolata-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'MavenPro';
+		font-weight: normal;
+    src: url('./../fonts/MavenPro/MavenPro-Regular.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('./../fonts/MavenPro/MavenPro-Regular.woff') format('woff'), /* Modern Browsers */
+         url('./../fonts/MavenPro/MavenPro-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'MavenPro';
+		font-weight: bold;
+    src: url('./../fonts/MavenPro/MavenPro-Bold.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('./../fonts/MavenPro/MavenPro-Bold.woff') format('woff'), /* Modern Browsers */
+         url('./../fonts/MavenPro/MavenPro-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Pridi';
+		font-weight: normal;
+    src: url('./../fonts/Pridi/Pridi-Regular.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('./../fonts/Pridi/Pridi-Regular.woff') format('woff'), /* Modern Browsers */
+         url('./../fonts/Pridi/Pridi-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Pridi';
+		font-weight: bold;
+    src: url('./../fonts/Pridi/Pridi-Bold.eot') format('embedded-opentype'), /* IE9 Compat Modes */
+         url('./../fonts/Pridi/Pridi-Bold.woff') format('woff'), /* Modern Browsers */
+         url('./../fonts/Pridi/Pridi-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
